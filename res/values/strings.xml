@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuperHack</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_super_hack">Super Hack</string>
+    <string name="choose_app">Choose application</string>
+    <string name="adb_tcp">ADB via TCP/USB setup</string>
+    <string name="hosts">Hosts file editor</string>
+    <string name="title_activity_adbvia_tcp">ADB via TCP setup</string>
+    <string name="title_activity_hosts_editor">Hosts file editor</string>
+    <string name="run_adb_via">Connect ADB using:</string>
+    <string name="tcp_ip">TCP/IP</string>
+    <string name="usb">USB</string>
+    <string name="port_num">Port number (above 5000)</string>
+    <string name="set_adb">Set</string>
+    <string name="hosts_editor">Hosts Editor</string>
+    <string name="add_host">Add host entry</string>
+    <string name="title_activity_edit_host">Edit Host</string>
+    <string name="menu_add">Add host</string>
+    <string name="menu_refresh">Refresh list</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_add_host">Add Host</string>
+    <string name="ip_addr">IP Address:</string>
+    <string name="h_name">Hostname:</string>
+    <string name="save">Save</string>
+    <string name="adb_pc_conf"><font fgcolor="#ff0000ee"><u>Configure ADB on PC</u></font></string>
+    <string name="adb_setup" ><font fgcolor="#ffffffff">ADB is located in the </font><font fgcolor="#ffdddddd"><i>\'platform-tools\'</i></font><font fgcolor="#ffffffff"> folder in the Android SDK. Using a terminal program simply run </font><font fgcolor="#ffdddddd"><i>\'adb connect {phone ip}:{port}\'.</i></font><font fgcolor="#ffffffff"> It should state: </font><font fgcolor="#ffdddddd">\'connected to: {phone ip}:{port}\'</font></string>
+
+</resources>

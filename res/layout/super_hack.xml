@@ -1,0 +1,58 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+         <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:gravity="center"
+                 android:text="@string/choose_app"
+                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="192dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_bg"
+                android:text="@string/adb_tcp" />
+
+            </LinearLayout>
+       
+        <LinearLayout
+            	android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp"
+                android:padding="4dp"
+                android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="192dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_bg"
+                android:text="@string/hosts" />
+
+            </LinearLayout>
+        
+    </LinearLayout>

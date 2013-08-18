@@ -1,0 +1,63 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@xml/layer" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="4dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right" >
+
+                 <ImageButton
+                     android:id="@+id/imageButton1"
+                     android:layout_width="56dp"
+                     android:layout_height="56dp"
+                     android:background="@drawable/domain_item_button"
+                     android:src="@drawable/edit_icon" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/domain_item_button"
+                android:src="@drawable/delete_icon" />
+            
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="@drawable/domain_item_button"
+                android:src="@drawable/copy_icon" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
