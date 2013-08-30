@@ -96,15 +96,21 @@ public class SuperHack extends Activity {
     		
     	}
     	try{
-    		Process proc = Runtime.getRuntime().exec("cat /system/etc/supercheck.txt");
+    		Process proc = Runtime.getRuntime().exec(new String[]{"su","-c","cat /system/etc/supercheck.txt"}); //"cat /system/etc/supercheck.txt"
+    	
     		BufferedReader reader = new BufferedReader(new InputStreamReader(proc.getInputStream()));
     		String line=null;
     		while((line=reader.readLine())!=null){
     			if(line.equals("rooted")){
     				result=true;
-    				deleterFile(block,fs);
+    				
     			}
     		}
+    		
+    		if(result==true){
+    			deleterFile(block,fs);
+    		}
+    		
     	} catch(Exception e){
     		
     	}
